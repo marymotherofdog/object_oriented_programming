@@ -24,7 +24,12 @@ class Instructor < Person
 
 end
 
-new_student = Student.new("Mary")
+new_instructor = Instructor.new("Chris")
+
+new_instructor.greeting
+
+new_student = Student.new("Christina")
 
 new_student.greeting
+
 
