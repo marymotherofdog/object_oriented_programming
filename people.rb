@@ -32,4 +32,13 @@ new_student = Student.new("Christina")
 
 new_student.greeting
 
+new_student.learn
+
+new_instructor.teach
+
+#new_student.teach # There is no teach method
+#defined for the student class, only the
+#instructor class
+
+
 
